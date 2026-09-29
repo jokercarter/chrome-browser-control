@@ -1,0 +1,14 @@
+# Never commit browser profiles or authentication data.
+CodexChromeData*/
+User Data/
+**/Cookies*
+**/Login Data*
+**/Web Data*
+**/Local State
+**/Preferences
+auth.json
+*.pem
+*.key
+*.token
+.env
+*.log

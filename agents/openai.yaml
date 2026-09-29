@@ -1,0 +1,7 @@
+interface:
+  display_name: "Chrome Browser Control"
+  short_description: "Control your logged-in Chrome with mouse, keys, and screenshots"
+  default_prompt: "Use $chrome-browser-control to inspect and operate my existing logged-in Chrome."
+
+policy:
+  allow_implicit_invocation: true

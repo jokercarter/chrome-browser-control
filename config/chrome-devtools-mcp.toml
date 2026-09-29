@@ -1,0 +1,13 @@
+[mcp_servers.chrome-devtools]
+command = "npx"
+args = [
+  "-y",
+  "chrome-devtools-mcp@latest",
+  "--browser-url=http://127.0.0.1:9223",
+  "--experimental-vision=true",
+  "--screenshot-format=jpeg",
+  "--screenshot-max-width=1600",
+  "--screenshot-max-height=1000",
+  "--no-usage-statistics",
+]
+startup_timeout_ms = 20000
